@@ -1,4 +1,4 @@
-0. %cd <this project>
+0. %cd "this project"
 
 1. %yarn install
 
