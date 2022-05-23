@@ -15,7 +15,7 @@
 
 4. %cd ..
 
-5. Compile : (Before compile, turn on Docker)
+5. Compile : (Before compile, turn on Docker).   
    %npx hardhat compile
    >> 
    5-1:
