@@ -23,10 +23,10 @@
    You should copy the abi array and paste it into the abi.json
    Ref. :https://v2-docs.zksync.io/dev/guide/hello-world.html#front-end-integration
 
-6. Deploy :
+6. Deploy : (Copy your 'Wallet Private KEY' to deploy.js, and make sure you have enough ETH.)    
    %npx hardhat run --network rinkeby deploy/deploy.js
 
-7. Copy deployed smart contract address at step 6
+7. Copy deployed smart contract address at step (6)
 
 8. Copy address to frontend/src/App.vue。  
    const MYZK2GREETER_CONTRACT_ADDRESS = '0x3A07a1fB08a22368C511d2A7E1030B693467C242';
