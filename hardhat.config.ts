@@ -2,7 +2,7 @@ require("@matterlabs/hardhat-zksync-deploy");
 require("@matterlabs/hardhat-zksync-solc");
 require("@nomiclabs/hardhat-etherscan");
 
-const ETHERSCAN_KEY = 'YDKC69WE35U8XR5ZVMZEUU3B165SMZS13S'
+const ETHERSCAN_KEY = 'YOUR ETHERSCAN KEY'
 
 module.exports = {
   zksolc: {
