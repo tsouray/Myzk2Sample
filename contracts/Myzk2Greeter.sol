@@ -1,8 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-//import "hardhat/console.sol";
-
 contract Myzk2Greeter {
     //string private greeting;
     uint256 storedData;
@@ -11,8 +9,6 @@ contract Myzk2Greeter {
     uint256 dataValue;
 
     constructor(uint256 _storedData) {
-        //console.log("Deployed by: ", msg.sender);
-        //console.log("Deployed with value: %s", _storedData);
         storedData = _storedData;
         deviceID = 0;
         dataTime = 0;
@@ -20,7 +16,6 @@ contract Myzk2Greeter {
     }
 
     function set(uint256 x) public {
-        //console.log("Set value to: %s", x);
         storedData = x;
     }
     
@@ -31,7 +26,6 @@ contract Myzk2Greeter {
     }
 
     function get() public view returns (uint256) {
-        //console.log("Retrieved value: %s", storedData);
         return storedData;
     }
 

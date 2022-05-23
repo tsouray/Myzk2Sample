@@ -10,6 +10,9 @@
 
 5. Compile : 
    %npx hardhat compile
+   Replace frontend\src\abi.json from ./artifacts/contracts/Myzk2SGreeter.sol/Myzk2SGreeter.json
+   You should copy the abi array and paste it into the abi.json
+   Ref. :https://v2-docs.zksync.io/dev/guide/hello-world.html#front-end-integration
 
 6. Deploy :
    %npx hardhat run --network rinkeby deploy/deploy.js
