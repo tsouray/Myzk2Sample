@@ -21,7 +21,7 @@
 
 7. Copy deployed smart contract address at step 6
 
-8. Copy address to frontend/src/App.vue
+8. Copy address to frontend/src/App.vue。  
    const MYZK2GREETER_CONTRACT_ADDRESS = '0x3A07a1fB08a22368C511d2A7E1030B693467C242';
 
 9. %cd frontend
