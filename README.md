@@ -2,6 +2,8 @@
 - yarn package manager. npm examples will be added soon.  
 - Docker for compilation.  
 - A wallet with some Görli ETH on L1 (Görli USDC is also required for the ERC-20 tutorial) to pay for bridging funds to zkSync as well as deploying smart contracts.  
+-----
+#Steps：
 
 0. %cd "this project"
 
