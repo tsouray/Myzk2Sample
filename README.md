@@ -18,13 +18,17 @@
 5. Compile : (Before compile, turn on Docker).   
    %yarn hardhat compile
    >> 
-   5-1:
+   5-1: After compile and with no error.    
    Replace frontend\src\abi.json from ./artifacts/contracts/Myzk2SGreeter.sol/Myzk2SGreeter.json
    You should copy the abi array and paste it into the abi.json     
    Ref. :https://v2-docs.zksync.io/dev/guide/hello-world.html#front-end-integration
 
-6. Deploy : (Copy your 'Wallet Private KEY' to deploy.js, and make sure you have enough ETH.)    
-   %yarn hardhat deploy-zksync
+6. Deploy : (Copy your 'Wallet Private KEY' into deploy.js, and make sure you have enough ETH.)    
+   const wallet = new Wallet("<Your Rinkeby account private key >");     
+   %yarn hardhat deploy-zksync   
+   Ex:    
+   Myzk2Greeter was deployed to 0x3A07a1fB08a22368C511d2A7E1030B693467C242     
+   Done in 335.97s.
 
 7. Copy deployed smart contract address at step (6)
 
