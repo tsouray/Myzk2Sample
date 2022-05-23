@@ -23,17 +23,22 @@
    You should copy the abi array and paste it into the abi.json     
    Ref. :https://v2-docs.zksync.io/dev/guide/hello-world.html#front-end-integration
 
-6. Deploy : (Copy your 'Wallet Private KEY' into deploy.js, and make sure you have enough ETH.)    
-   const wallet = new Wallet("<Your Rinkeby account private key >");     
+6. Deploy :     
+   6-1. Copy your 'Account Private KEY' into deploy.js, and make sure you have enough ETH.   
+   deploy.js :  const wallet = new Wallet("Your Account Private key ");        
+   
+   6-2.    
    %yarn hardhat deploy-zksync   
-   Ex:    
+   
+   6-3. output Ex:        
+   ...    
    Myzk2Greeter was deployed to 0x3A07a1fB08a22368C511d2A7E1030B693467C242     
-   Done in 335.97s.
+   Done in 335.97s.    
 
-7. Copy deployed smart contract address at step (6)
+7. Copy deployed smart contract address at step (6-3)
 
-8. Copy address to frontend/src/App.vue。  
-   const MYZK2GREETER_CONTRACT_ADDRESS = '0x3A07a1fB08a22368C511d2A7E1030B693467C242';
+8. Paste address into frontend/src/App.vue。  
+   const MYZK2GREETER_CONTRACT_ADDRESS = '0x.. YOUR Deployed smart contract address';
 
 9. %cd frontend
 
