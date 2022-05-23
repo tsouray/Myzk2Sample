@@ -1,3 +1,8 @@
+#Prerequisites： Ref. (https://v2-docs.zksync.io/dev/guide/hello-world.html#prerequisites)
+- yarn package manager. npm examples will be added soon.  
+- Docker for compilation.  
+- A wallet with some Görli ETH on L1 (Görli USDC is also required for the ERC-20 tutorial) to pay for bridging funds to zkSync as well as deploying smart contracts.  
+
 0. %cd "this project"
 
 1. %yarn install
@@ -8,7 +13,7 @@
 
 4. %cd ..
 
-5. Compile : 
+5. Compile : (Before compile, turn on Docker)
    %npx hardhat compile
    >> 
    5-1:
