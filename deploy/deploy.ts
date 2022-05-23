@@ -8,7 +8,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   console.log(`Running deploy script for the Myzk2Greeter contract`);
 
   // Initialize the wallet.
-  const wallet = new Wallet("<your Rinkeby account private key>"); // your Rinkeby account private key
+  const wallet = new Wallet("<your account private key>");
 
   // Create deployer object and load the artifact of the contract we want to deploy.
   const deployer = new Deployer(hre, wallet);
