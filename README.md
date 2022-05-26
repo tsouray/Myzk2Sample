@@ -45,3 +45,5 @@
 10. %yarn serve
 
 11. Open browser --> http://localhost:8080/ 
+![image](https://github.com/tsouray/Myzk2Sample/blob/main/frontend/webDemo.png)
+
